@@ -48,6 +48,15 @@ button {
     font-size: 18px;
 }
 
+.title-purple {
+    color: var(--purple);
+}
+
+.title-green {
+    color: var(--green);
+    font-weight: 400;
+}
+
 header {
     height: calc(100vh - var(--menu-height));
     display: flex;
@@ -62,11 +71,6 @@ header .container {
 
 header .container img {
     display: none;
-}
-
-header .container h1 {
-    color: var(--green);
-    font-weight: 400;
 }
 
 header .container button {
@@ -104,9 +108,23 @@ nav ul a svg {
     display: none;
 }
 
-section {
-    height: 1000px;
-    background: black;
+.about-me {
+    display: flex;
+    padding: 100px;
+}
+
+.about-me .container {
+    width: 50%;
+    padding-right: 50px;
+}
+
+.about-me .img-container {
+    width: 50%;
+    text-align: center;
+}
+
+.about-me .img-container img {
+    width: 50%;
 }
 
 

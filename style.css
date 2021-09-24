@@ -32,6 +32,7 @@ h1 {
 
 h2 {
     font-size: 24px;
+    font-weight: 400;
 }
 
 p {
@@ -50,6 +51,7 @@ button {
 
 .title-purple {
     color: var(--purple);
+    font-weight: 400;
 }
 
 .title-green {
@@ -145,6 +147,41 @@ nav ul a svg {
     color: var(--green);
 }
 
+.services {
+    text-align: center;
+    margin: 150px 0;
+    padding: 0 100px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 60px auto 0;
+}
+
+.services .services-container .service-card {
+    max-width: 360px;
+    background: #2F3034;
+    border: 1px solid var(--purple);
+    border-radius: 16px;
+    padding: 40px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.services .services-container .service-card img {
+    width: 90px;
+    margin-bottom: 20px;
+}
+
+.service-card+.service-card {
+    margin-left: 10px;
+}
+
 
 /* RESPONSIVIDADE */
 
@@ -173,6 +210,21 @@ nav ul a svg {
     }
     .about-me .img-container {
         margin: 70px 0;
+    }
+    .services {
+        padding: 0;
+    }
+    .services .services-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-card {
+        height: 394px;
+    }
+    .service-card+.service-card {
+        margin-left: 0px;
+        margin-top: 30px;
     }
 }
 
@@ -218,5 +270,11 @@ nav ul a svg {
     }
     .about-me {
         padding: 40px;
+    }
+    .services {
+        margin: 70px 0;
+    }
+    .services .services-container {
+        padding: 0 20px;
     }
 }

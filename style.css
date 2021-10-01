@@ -9,6 +9,7 @@
     --bg-dark: #212226;
     --light-grey: #E0DEDE;
     --menu-height: 75px;
+    --medium-grey: #2F3034;
 }
 
 html,
@@ -32,6 +33,11 @@ h1 {
 
 h2 {
     font-size: 24px;
+}
+
+h1,
+h2 {
+    margin: 0;
     font-weight: 400;
 }
 
@@ -47,16 +53,29 @@ button {
     color: white;
     font-weight: bold;
     font-size: 18px;
+    cursor: pointer;
+}
+
+.secondary-button {
+    background: var(--medium-grey);
+    border: 1px solid var(--purple);
+    color: var(--green);
+    font-weight: bold;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.secondary-button img {
+    margin-right: 15px;
 }
 
 .title-purple {
     color: var(--purple);
-    font-weight: 400;
 }
 
 .title-green {
     color: var(--green);
-    font-weight: 400;
 }
 
 header {
@@ -176,7 +195,7 @@ nav ul a svg {
 
 .services .services-container .service-card img {
     width: 90px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .service-card+.service-card {
@@ -185,11 +204,10 @@ nav ul a svg {
 
 .portfolio {
     padding: 0 100px;
-    text-align: center;
-    background: url(assets/portfolio-bg.png);
-    background-size: cover;
     margin-bottom: 100px;
     height: 800px;
+    text-align: center;
+    background: url('assets/portfolio-bg.png');
 }
 
 .portfolio .portfolio-container {
@@ -253,6 +271,32 @@ nav ul a svg {
 
 p {
     margin: 0;
+}
+
+.curriculo {
+    padding: 0 100px;
+    text-align: center;
+}
+
+.curriculo .container {
+    display: flex;
+    margin: 50px 0;
+}
+
+.curriculo .container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+}
+
+.curriculo .container .content .curriculo-info {
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-gap: 1rem;
+    margin-bottom: 50px;
 }
 
 

@@ -208,6 +208,7 @@ nav ul a svg {
     height: 800px;
     text-align: center;
     background: url('assets/portfolio-bg.png');
+    background-repeat: round;
 }
 
 .portfolio .portfolio-container {
@@ -280,7 +281,8 @@ p {
 
 .curriculo .container {
     display: flex;
-    margin: 50px 0;
+    margin: 50px auto;
+    max-width: 1200px;
 }
 
 .curriculo .container .content {
@@ -288,8 +290,8 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
     text-align: left;
+    width: 100%;
 }
 
 .curriculo .container .content .curriculo-info {
@@ -348,6 +350,15 @@ p {
     }
     .portfolio {
         height: 100%;
+    }
+    .curriculo .container {
+        flex-wrap: wrap;
+    }
+    .curriculo .container .curriculo-img {
+        display: block;
+        margin: 0 auto 50px;
+        width: 100%;
+        max-width: 520px;
     }
 }
 
@@ -409,5 +420,11 @@ p {
     }
     .portfolio {
         margin: 100px 0 50px;
+    }
+    .curriculo {
+        padding: 0 20px;
+    }
+    .curriculo .content {
+        padding: 0 15px;
     }
 }

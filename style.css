@@ -12,6 +12,10 @@
     --medium-grey: #2F3034;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html,
 body {
     margin: 0;
@@ -147,6 +151,9 @@ nav ul a svg {
 .about-me .container {
     width: 50%;
     padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .about-me .img-container {

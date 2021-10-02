@@ -14,4 +14,4 @@ Nice things that could be learned from this project:
 ![Image from Gyazo](https://i.gyazo.com/0bbef6f4bcee2a730120405eccffdb1f.gif)
 
 # Mobile Behavior
-![Image from Gyazo](https://i.gyazo.com/b147a464ad42b5cd103e82f30e4cf855.gif)
+[Image from Gyazo](https://i.gyazo.com/1c7e21072c549255c80a4a2b20de4e27.gif)
